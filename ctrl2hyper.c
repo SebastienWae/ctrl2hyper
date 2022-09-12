@@ -25,7 +25,7 @@ int main() {
 
 		if (input.type == EV_KEY && input.code == KEY_LEFTCTRL) {
 			struct input_event f19 = {.type = EV_KEY, .code = KEY_F19, .value = input.value};
-			write_event(&19);
+			write_event(&f19);
 			continue;
 		}
 
