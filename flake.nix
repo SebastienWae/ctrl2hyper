@@ -14,7 +14,7 @@
             owner = "sebastienwae";
             repo = "ctrl2hyper";
             rev = "v${version}";
-            sha256 = "sha256-IRJj4DXDq8MDoJnsQaopn11gLRqW4uDfDm/p/GxOcOAg=";
+            sha256 = "sha256-IRJj4DXDq8MDoJnsQopn11gLRqW4uDfDm/p/GxOcOAg=";
           };
 
           nativeBuildInputs = [ pkgs.cmake ];
