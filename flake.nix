@@ -8,7 +8,7 @@
       let pkgs = nixpkgs.legacyPackages.${system}; in rec {
         packages.ctrl2hyper = pkgs.stdenv.mkDerivation rec {
           pname = "ctrl2hyper";
-          version = "0.2";
+          version = "0.2.1";
 
           src = pkgs.fetchFromGitHub {
             owner = "sebastienwae";
