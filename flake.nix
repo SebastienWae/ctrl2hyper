@@ -8,13 +8,13 @@
       let pkgs = nixpkgs.legacyPackages.${system}; in rec {
         packages.ctrl2hyper = pkgs.stdenv.mkDerivation rec {
           pname = "ctrl2hyper";
-          version = "0.2.2";
+          version = "0.2.3";
 
           src = pkgs.fetchFromGitHub {
             owner = "sebastienwae";
             repo = "ctrl2hyper";
             rev = "v${version}";
-            sha256 = "sha256-IRJj4DXDq8MDoJnsQaopn11gLRqW4uDDm/p/GxOcOAg=";
+            sha256 = "sha256-IRJj4DXDq8MDoJnsQaopn11gLRqW4uDfDm/p/GxOcOAg=";
           };
 
           nativeBuildInputs = [ pkgs.cmake ];
